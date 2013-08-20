@@ -1,0 +1,19 @@
+# Java class files
+*.class
+
+# generated files
+bin/
+target/
+lib_managed/
+balancer/
+
+# Eclipse project files
+.classpath
+.project
+.cache
+.settings/
+
+# Geoff's additions
+.svn
+.DS_Store
+*~
