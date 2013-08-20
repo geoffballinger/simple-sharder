@@ -1,0 +1,7 @@
+<!-- Copyright (c) 2013 Geoff Ballinger. All rights reserved. -->
+<ivy-module version="2.0">
+ <info organisation="geoffballinger" module="simple-sharder" />
+  <dependencies>
+    <dependency org="com.twitter" name="finagle-http_2.10" rev="6.5.1" conf="*->*,!sources,!javadoc" />
+  </dependencies>
+</ivy-module>

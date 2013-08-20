@@ -4,8 +4,7 @@
 # generated files
 bin/
 target/
-lib_managed/
-balancer/
+simple-sharder.jar
 
 # Eclipse project files
 .classpath
