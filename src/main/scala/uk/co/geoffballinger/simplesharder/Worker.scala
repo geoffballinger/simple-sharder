@@ -25,7 +25,7 @@ import org.jboss.netty.buffer.ChannelBuffers
 import java.net.InetSocketAddress
 import java.nio.charset.Charset
 
-object Shard extends App {
+object Worker extends App {
   
   try {
     // Collect args
@@ -44,17 +44,17 @@ object Shard extends App {
 	  }
     }
     
-    // Run this shard over the required port
+    // Run this worker over the required port
 	val server = ServerBuilder()
 	.codec(Http())
 	.bindTo(new InetSocketAddress(port))
-	.name("Shard")
+	.name("Worker")
 	.build(service)
 	
   } catch {
     case t: Throwable => {
       System.err.println(t.getMessage())
-      System.err.println("Usage: Shard <port> <value>")
+      System.err.println("Usage: Worker <port> <value>")
     }
   }
 }
