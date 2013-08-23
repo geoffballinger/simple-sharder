@@ -3,6 +3,8 @@ simple-sharder
 
 A simple demonstration of sharding in an HTTP based system in Scala using [Twitter's Finagle library](http://twitter.github.io/finagle/) in support of my talk at [Mostly Functional](http://mostlyfunctional.com/) in August 2013.
 
+The talk itself is now up [on Slideshare](http://www.slideshare.net/geoffballinger/finagle).
+
 Note that this is in no way intended as production code and in particular omits any form of error checking or handling in order to maximise clarity!
 
 To build - on Mac at least - YMMV on other platforms:
